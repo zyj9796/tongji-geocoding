@@ -1,0 +1,74 @@
+[
+  {
+    "scene_id": "6062500184900001",
+    "archive": "/home/u/geocoding/geo_bc/a_geo_tongji/geocoding/data/四维高景/SVN2-03/6062500184900001.rar",
+    "members": {
+      "tiff": "6062500184900001/SVN2-03_MONO_SP_527_E121.5_N31.2_20260624T215636_008764_016_03DE7A_021D7D_SLC_HH_R_D_B.tiff",
+      "rpb": "6062500184900001/SVN2-03_MONO_SP_527_E121.5_N31.2_20260624T215636_008764_016_03DE7A_021D7D_SLC_HH_R_D_B.rpb",
+      "meta": "6062500184900001/SVN2-03_MONO_SP_527_E121.5_N31.2_20260624T215636_008764_016_03DE7A_021D7D_SLC_HH_R_D_B.meta.xml",
+      "incidence": "6062500184900001/SVN2-03_MONO_SP_527_E121.5_N31.2_20260624T215636_008764_016_03DE7A_021D7D_SLC_HH_R_D_B.incidence.xml",
+      "browse": "6062500184900001/SVN2-03_MONO_SP_527_E121.5_N31.2_20260624T215636_008764_016_03DE7A_021D7D_SLC_HH_R_D_B.browse.jpg"
+    },
+    "metadata": {
+      "mission": "SVN2-03",
+      "orbit_direction": "DESCENDING",
+      "imaging_mode": "SP",
+      "look_direction": "RIGHT",
+      "polarization": "HH",
+      "image_data_type": "COMPLEX",
+      "number_of_rows": 30660,
+      "number_of_columns": 40160,
+      "ground_range_resolution_m": 0.3986563312428563,
+      "azimuth_resolution_m": 0.4189373626112927,
+      "start_time_utc": "2026-06-24T21:56:35.806686142",
+      "stop_time_utc": "2026-06-24T21:56:37.270547246",
+      "center_incidence_angle_deg": 38.80506640530472,
+      "scene_average_height_m": 15.994634628295898,
+      "corners": {
+        "TopLeft": {
+          "line": 1,
+          "sample": 1,
+          "latitude_deg": 31.27670130534556,
+          "longitude_deg": 121.57848877494952
+        },
+        "TopRight": {
+          "line": 1,
+          "sample": 40160,
+          "latitude_deg": 31.295242747126483,
+          "longitude_deg": 121.45432708097576
+        },
+        "BottomLeft": {
+          "line": 30660,
+          "sample": 1,
+          "latitude_deg": 31.184634308286267,
+          "longitude_deg": 121.5596016852361
+        },
+        "BottomRight": {
+          "line": 30660,
+          "sample": 40160,
+          "latitude_deg": 31.203178668717463,
+          "longitude_deg": 121.43556678627903
+        }
+      }
+    },
+    "rpb": "/home/u/geocoding/geo_bc/a_geo_tongji/geocoding/siwei_image1_volume_geocode/inputs/image1/source.rpb",
+    "crop_window": {
+      "x_offset": 22351,
+      "y_offset": 0,
+      "width": 6726,
+      "height": 4703
+    },
+    "slc_crop": "/home/u/geocoding/geo_bc/a_geo_tongji/geocoding/siwei_image1_volume_geocode/inputs/image1/slc_crop.tif",
+    "amplitude_crop": "/home/u/geocoding/geo_bc/a_geo_tongji/geocoding/siwei_image1_volume_geocode/inputs/image1/amplitude_crop.tif",
+    "raster": {
+      "slc_width": 6726,
+      "slc_height": 4703,
+      "slc_band_count": 2,
+      "slc_dtypes": [
+        "int16",
+        "int16"
+      ],
+      "slc_storage": "two_band_real_imaginary"
+    }
+  }
+]
